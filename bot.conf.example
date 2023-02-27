@@ -8,4 +8,4 @@ dbuser= dbuser
 dbpassword=dbpassword
 folders_to_skip= folders to skip by the scanner, comma separated
 providers= provider folders to look for, comma separated 
-
+poopler_path=yourpath\poppler-23.01.0\Library\bin

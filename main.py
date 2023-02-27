@@ -55,6 +55,11 @@ async def scheduled_tasks(context):
     utils.categorize_archives()    
     utils.hidden_folders()    
     fail_convert = utils.convert_pdf()
+    if fail_convert is not None:
+        await context.bot.send_message(
+            chat_id = config['SETTINGS']['response_id'],
+            text = truncated_msg(fail_convert)
+        )
     
     
     printer = utils.print_files()
