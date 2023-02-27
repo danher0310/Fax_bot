@@ -9,3 +9,15 @@ dbpassword=dbpassword
 folders_to_skip= folders to skip by the scanner, comma separated
 providers= provider folders to look for, comma separated 
 poopler_path=yourpath\poppler-23.01.0\Library\bin
+
+[DOCTOR1]
+folder = path
+chat_id =chatid
+
+[DOCTOR2]
+folder = path
+chat_id =chatid
+
+[DOCTOR3]
+folder = path
+chat_id =chatid
